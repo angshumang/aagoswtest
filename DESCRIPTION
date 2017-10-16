@@ -10,4 +10,4 @@ Depends:plyr,Biostrings (>= 2.42.1), rvaultclient
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
-Remotes: bioc::3.4/Biostrings , https://github.platforms.engineering/science-at-scale/rvaultclient
+Remotes: bioc::3.4/Biostrings 
