@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sh
+# MAGIC cat /tmp/xxx
+
+# COMMAND ----------
+
 import os, json,re
 from pyspark.sql.functions import *
 import pyspark.sql.functions as f
