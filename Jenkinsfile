@@ -74,6 +74,7 @@ pipeline {
           echo 'Hello'
           echo "${params.Env}"
           echo "${params.Server}"
+          python --version   
           if (params.Server.equals("Could not get Environment from Env Param")) {
               echo "Must be the first build after Pipeline deployment.  Aborting the build"
               currentBuild.result = 'ABORTED'
